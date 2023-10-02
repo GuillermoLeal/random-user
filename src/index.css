@@ -1,0 +1,21 @@
+:root{
+
+}
+
+body {
+  background: #223;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card .image {
+  --size: 128px;
+
+  width: var(--size);
+  height: var(--size);
+}
